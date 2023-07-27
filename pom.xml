@@ -108,6 +108,19 @@
                 <version>${spring.version}</version>
             </dependency>
 
+            <!--gson依赖-->
+            <dependency>
+                <groupId>com.google.code.gson</groupId>
+                <artifactId>gson</artifactId>
+                <version>2.10.1</version>
+            </dependency>
+            <!--aspectj依赖-->
+            <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjweaver</artifactId>
+                <version>1.9.19</version>
+            </dependency>
+
             <!--七牛云依赖-->
             <dependency>
                 <groupId>com.qiniu</groupId>
@@ -118,13 +131,6 @@
 
         </dependencies>
     </dependencyManagement>
-    <dependencies>
-        <dependency>
-            <groupId>com.google.code.gson</groupId>
-            <artifactId>gson</artifactId>
-            <version>2.10.1</version>
-        </dependency>
-    </dependencies>
 
     <build>
         <plugins>
