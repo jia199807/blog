@@ -1,0 +1,6 @@
+[submodule "jty-framework"]
+	path = jty-framework
+	url = https://github.com/jia199807/jty-framework.git
+[submodule "jty-blog"]
+	path = jty-blog
+	url = https://github.com/jia199807/jty-blog.git
